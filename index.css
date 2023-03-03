@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #EDEDED;
+    position: relative;
+}
+
+.main-header, .post-container {
+    width: 375px;
+    margin: 0 auto;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 0 .3px #202020;
+    margin-bottom: 5px;
+    background-color: #FFF;
+    position: sticky;
+}
+
+.logo {
+    width: 40%;
+    height: 20%;
+}
+
+.main-avatar {
+    width: 15%;
+    height: 15%;
+    border-radius: 300px;
+}
+
+.user-info {
+    display: flex;
+    padding: 10px;
+}
+
+.user-fullname {
+    margin: 6px 0;;
+}
+
+.user-avatar {
+    width: 15%;
+    height: 15%;
+    border-radius: 300px;
+    margin-right: 5px;
+}
+
+.post-container {
+    height: calc(100vh - 90px);
+    box-shadow: 0 0 .3px #202020;
+    background-color: #FFF;
+    margin-bottom: 20px;
+}
+
+.post-image {
+    width: inherit;
+}
+
+footer {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icons img {
+    width: 23px;
+    height: 23px;
+    margin-right: 8.5px;
+}
+
+.likes-count {
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+#icon-heart:hover {
+    background-color: tomato;
+}
